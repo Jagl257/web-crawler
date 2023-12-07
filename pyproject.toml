@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "web-crawler"
+version = "0.1.0"
+description = "Web Crawler exercise for bringing the 30 first entries from a web page"
+authors = ["Jorge Guerra <jagl257@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
